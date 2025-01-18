@@ -1,0 +1,22 @@
+from tkinter import*
+#from tkinter.ttk import*
+
+root = Tk()
+root.geometry('400x400')
+
+root.config(background="light blue")
+root.title("Login Me")
+
+# The label for username
+
+u= Label(root, text="Username")
+u.place(x=40,y=60)
+
+u= Label(root, text="Password")
+u.place(x=40,y=90)
+ue = Entry(root,width= 30)
+ue.place(x=100,y=60)
+
+
+
+root.mainloop()
