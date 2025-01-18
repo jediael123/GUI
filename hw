@@ -1,0 +1,15 @@
+from tkinter import*
+root = Tk()
+root.geometry('100x100')
+b = Button(root, text = 'click me', background = 'blue')
+b.pack(side = 'top')
+
+b2 = Button(root, text = 'click me', background = 'red')
+b2.pack(side = 'bottom')
+
+b3 = Button(root, text = 'click me', background = 'blue')
+b3.pack(side = 'left')
+
+b4 = Button(root, text = 'click me', background = 'blue')
+b4.pack(side = 'right')
+root.mainloop()
